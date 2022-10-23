@@ -1,0 +1,147 @@
+body {
+    user-select: none;
+    background-color: #11313d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .root {
+     transform: scale(0.7);
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .root {
+     transform: scale(0.8);
+    }
+  }
+#top-display {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.root {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    height: 86vh;
+}
+
+.main-container {
+    display: flex;
+    outline: 2px solid rgb(60, 180, 198);
+    width: 400px;
+    min-height: 400px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000103;
+}
+
+.my-card {
+    color: whitesmoke;
+}
+.my-card a {
+    text-decoration: none;
+color: #e498fe;
+}
+
+.drum-field {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    margin: 15px;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px#000103;
+}
+
+.drum-pad {
+    display: flex;
+    text-align: center;
+    width: 120px;
+    min-height: 120px;
+    margin-right: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colours 
+
+#4f00ff #1de2d9
+#fc03be #e498fe
+#cc9433 #ddb079
+#3fc06e #ccf1ab
+#659a6e #badf20
+#b20af5 #de85ff
+#a40700 #ff378e
+#9a659a #be41a9
+#1d6ae2 #14d6eb
+*/
+
+/* buttons */
+#sound-1 {
+    background-color: #00b3ff;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #1de2d9, 0px 0px 20px 1px #0069cc;
+}
+
+#sound-2 {
+    background-color: #fc03be;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #e498fe, 0px 0px 20px 1px #ff78f8;
+}
+
+#sound-3 {
+    background-color: #cc9433;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #fcc787, 0px 0px 20px 1px #cca300;
+}
+
+#sound-4 {
+    background-color: #3fc06e;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #ccf1ab, 0px 0px 20px 1px #273917;
+}
+
+#sound-5 {
+    background-color: #659a6e;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #badf20, 0px 0px 20px 1px #badf20;
+}
+
+#sound-6 {
+    background-color: #b20af5;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #de85ff, 0px 0px 20px 1px #de85ff;
+}
+
+#sound-7 {
+    background-color: #6a2769;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #7c229d, 0px 0px 20px 1px #7c229d;
+}
+
+#sound-8 {
+    background-color: #b83028;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #ff378e, 0px 0px 20px 1px #cc0069;
+}
+
+#sound-9 {
+    background-color: #1d6ae2;
+    color: white;
+    box-shadow: inset 0px 0px 50px 20px #14d6eb, 0px 0px 20px 1px #0066cc;
+}
